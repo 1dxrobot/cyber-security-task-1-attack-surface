@@ -140,3 +140,4 @@ In the data flow from user → application → server → database, key attack p
 <li> Server: Broken access control, SSRF </li>
 <li>Server to database: SQL injection, weak encryption </li>
 The OWASP Top 10 highlights critical web risks like broken access control, cryptographic failures, injection, and insecure design, guiding developers to build more secure applications.
+///
