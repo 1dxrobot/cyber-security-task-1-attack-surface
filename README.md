@@ -36,4 +36,5 @@ Availability:<li>Platforms must remain online despite massive traffic. Content d
 <li>Mobile apps expand the attack surface through insecure data storage, weak encryption, and third-party SDKs. Lost or stolen devices also pose physical risks.
 
 <b>Risk:</b> Apps may leak sensitive data via insecure APIs or local storage.
+
 <b>Protection:</b> Code obfuscation, runtime application self-protection (RASP), and secure API communication.</li>
