@@ -34,9 +34,25 @@ Availability:<li>Platforms must remain online despite massive traffic. Content d
 <b> Example:</b> The 2023 MOVEit breach exploited a vulnerability in a web-based file transfer tool, compromising thousands of organizations.
 
 <b> Mitigation:</b> Regular patching, input validation, and web application firewalls (WAFs).</li>
+<br>
 <h3>  Mobile Apps</h3>
 <li>Mobile apps expand the attack surface through insecure data storage, weak encryption, and third-party SDKs. Lost or stolen devices also pose physical risks.
 
 <b>Risk:</b> Apps may leak sensitive data via insecure APIs or local storage.
 
 <b>Protection:</b> Code obfuscation, runtime application self-protection (RASP), and secure API communication.</li>
+<br>
+<h3> APIs</h3>
+<li> APIs act as connective tissue between services but are frequently exposed, poorly authenticated, or lack rate limiting.
+
+Threat: In 2023, Honda suffered a data breach due to an API vulnerability in its e-commerce platform.
+
+Best Practices: Enforce authentication (OAuth), input validation, logging, and API gateways.</li>
+<br>
+<h3> Networks</h3>
+The network attack surface includes routers, switches, firewalls, and open ports that can be exploited for lateral movement.
+
+Vulnerabilities: Unsecured protocols, outdated firmware, or misconfigured access controls.
+
+Defense: Network segmentation, intrusion detection systems (IDS), and zero-trust architecture.
+<br>
