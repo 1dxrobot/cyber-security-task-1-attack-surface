@@ -1,6 +1,5 @@
 <h5>Cyber-security-task-1-attack-surface</h5>
-1Research cyber security fundamentals, emphasizing the CIA triad (confidentiality, integrity, availability) with examples from banking and social media.
-
+<h4>1.Research cyber security fundamentals, emphasizing the CIA triad (confidentiality, integrity, availability) with examples from banking and social media. </h4> 
 1.1 Introduction to the CIA Triad
 The CIA triad—Confidentiality, Integrity, and Availability—is a foundational model in cybersecurity used to guide policies and strategies for protecting information. Despite its name, it has no connection to the Central Intelligence Agency; instead, it represents three core principles that ensure data remains secure, accurate, and accessible.
 <h4> 1.2 Confidentiality in Cybersecurity </h4>
@@ -18,7 +17,7 @@ Confidentiality:<li>User passwords and private messages are encrypted. Platforms
 Integrity: <li>Measures like content hashing and audit logs help detect fake accounts or manipulated posts. However, misinformation remains a challenge.</li> 
 Availability:<li>Platforms must remain online despite massive traffic. Content delivery networks (CDNs) and auto-scaling cloud infrastructure ensure continuous access.</li>
 <br>
-2.Identify attacker types like script kiddies, insiders, hacktivists, and nation-state actors using credible security blogs.
+<h4> 2.Identify attacker types like script kiddies, insiders, hacktivists, and nation-state actors using credible security blogs.</h4> 
 <h2> 2.1 Script Kiddies</h2>
 <li>Attacker Who Use pre written Tools Or Script developed By Others without Understanding an Underlying the mechanism. </li>
 <br>
@@ -31,7 +30,7 @@ Availability:<li>Platforms must remain online despite massive traffic. Content d
 <h2>2.4 Nation-State Actors</h2>
 <li> Nation-state actors are highly skilled, well-funded groups backed by governments to conduct cyber espionage, sabotage critical infrastructure, or steal intellectual property.</li>
 <br>
-3.Explore attack surfaces such as web apps, mobile apps, APIs, networks, and cloud infrastructure
+<h4> 3.Explore attack surfaces such as web apps, mobile apps, APIs, networks, and cloud infrastructure</h4>
 <h3>3.1 Web Applications</h3>
 <li> Web applications are a major component of the digital attack surface, exposed to threats like SQL injection, cross-site scripting (XSS), and insecure authentication.
   
@@ -60,7 +59,7 @@ Vulnerabilities: Unsecured protocols, outdated firmware, or misconfigured access
 
 Defense: Network segmentation, intrusion detection systems (IDS), and zero-trust architecture.
 <br>
-<h5>4. Top 10 OWASP </h5> Research on 2025
+<h4>4. Top 10 OWASP </h4> Research on 2025
 <li> 4.1 A01: Broken Access Control – Unauthorized access due to improper permissions (e.g., accessing another user’s account).</li>
 <li>4.2 A02: Cryptographic Failures – Weak or missing encryption exposing sensitive data (e.g., plaintext passwords). </li> 
 <li>4.3 A03: Injection – Malicious input (e.g., SQL, NoSQL) executed as commands.</li> 
@@ -72,4 +71,8 @@ Defense: Network segmentation, intrusion detection systems (IDS), and zero-trust
 <li>4.9 A09: Security Logging and Monitoring Failures – Lack of detection for breaches.</li> 
 <li>4.10 A10: Server-Side Request Forgery (SSRF) – Forcing a server to access internal resources.</li> 
 <br>
-5.Map attack surfaces in everyday apps like email, WhatsApp, and banking.
+<h4> 5.Map attack surfaces in everyday apps like email, WhatsApp, and banking. </h4> 
+
+
+
+
