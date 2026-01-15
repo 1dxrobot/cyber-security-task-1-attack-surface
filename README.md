@@ -30,7 +30,9 @@ Availability:<li>Platforms must remain online despite massive traffic. Content d
 <br>
 <h3>Web Applications</h3>
 <li> Web applications are a major component of the digital attack surface, exposed to threats like SQL injection, cross-site scripting (XSS), and insecure authentication.
+  
 <b> Example:</b> The 2023 MOVEit breach exploited a vulnerability in a web-based file transfer tool, compromising thousands of organizations.
+
 <b> Mitigation:</b> Regular patching, input validation, and web application firewalls (WAFs).</li>
 <h3>  Mobile Apps</h3>
 <li>Mobile apps expand the attack surface through insecure data storage, weak encryption, and third-party SDKs. Lost or stolen devices also pose physical risks.
