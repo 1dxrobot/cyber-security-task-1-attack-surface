@@ -78,5 +78,47 @@ Defense: Network segmentation, intrusion detection systems (IDS), and zero-trust
 <li>WhatsApp’s popularity makes it a prime target, especially in regions like Brazil where it's used for business and banking:   <ol> Malware Propagation </ol> <ol> Auto-Messaging Worms </ol><ol> Social Engineering </ol></li>
 <h4> 5.3 Banking Apps </h4>
 <li> Banking applications face multi-layered threats across mobile and web platforms:    <ol> Overlay Attacks </ol> <ol> Man-in-the-Disk </ol> <ol> Device Tampering </ol></li> 
-<h4> Document data flow: user → application → server → database. </h4>
-https://en.wikipedia.org/wiki/File:Data-flow-diagram-example.svg
+<h4> 6.Document data flow: user → application → server → database. </h4> 
+<li> 6.1 User: Initiates a request through a web or mobile interface.
+  
+6.2 Application (Frontend): Captures user input and sends it via HTTP(S) to the backend server, often in JSON or form-data format.
+
+6.3 Server (Backend): Receives the request, processes it and queries the database as needed using APIs or ORM tools.
+
+6.4 Database: Stores, retrieves, or updates data in response to server queries. Results are sent back through the same chain to the user.</li>
+
+<h4> 7.Pinpoint attack points along that data flow.</h4>
+
+<li>7.1 User → Application (Frontend)
+Attack Points: Phishing, keyloggers, malicious browser extensions
+  
+Threats: Credentials stolen before input; fake login overlays (e.g., in banking apps)
+<br> 
+7.2 Application (Client-Side) → Server
+Attack Points: HTTP requests, APIs, forms
+
+Threats: Injection attacks (e.g., SQLi via login fields)
+
+Cross-Site Scripting (XSS): Malicious scripts injected into input fields
+
+CSRF: Unauthorized actions triggered via authenticated sessions
+Insecure data transmission if TLS is missing or weak
+<br>
+7.3 Server (Backend)
+Attack Points: Authentication logic, session management, API endpoints
+
+Threats:
+Broken access control: Unauthorized access to resources
+
+Server-Side Request Forgery (SSRF): Forcing server to access internal systems
+
+Insecure deserialization: Remote code execution via manipulated data 
+7.4 Server → Database
+Attack Points: Database queries, connection strings, stored procedures
+
+Threats:
+SQL Injection: Direct manipulation of queries to extract or alter data
+
+Excessive database privileges: Compromised server gains full DB access
+
+Unencrypted data at rest: Data exposure if storage is breached</li>
