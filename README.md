@@ -123,7 +123,7 @@ SQL Injection: Direct manipulation of queries to extract or alter data
 Excessive database privileges: Compromised server gains full DB access
 
 Unencrypted data at rest: Data exposure if storage is breached</li>
-///bash The CIA triad—Confidentiality, Integrity, and Availability—forms the foundation of cybersecurity. Confidentiality ensures only authorized users access data, integrity protects data from unauthorized changes, and availability guarantees systems remain accessible when needed.
+```bash The CIA triad—Confidentiality, Integrity, and Availability—forms the foundation of cybersecurity. Confidentiality ensures only authorized users access data, integrity protects data from unauthorized changes, and availability guarantees systems remain accessible when needed.
 
 Common attacker types include:
 
@@ -135,9 +135,9 @@ Attack surfaces span web apps, mobile apps, APIs, networks, and cloud infrastruc
 
 In the data flow from user → application → server → database, key attack points include:
 
-<li> User to app: Phishing, keyloggers</li>
-<li>App to server: Injection, XSS, CSRF </li>
-<li> Server: Broken access control, SSRF </li>
-<li>Server to database: SQL injection, weak encryption </li>
+User to app: Phishing, keyloggers
+App to server: Injection, XSS, CSRF 
+Server: Broken access control, SSRF 
+Server to database: SQL injection, weak encryption 
 The OWASP Top 10 highlights critical web risks like broken access control, cryptographic failures, injection, and insecure design, guiding developers to build more secure applications.
-///
+```
