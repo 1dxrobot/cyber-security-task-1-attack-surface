@@ -56,3 +56,14 @@ Vulnerabilities: Unsecured protocols, outdated firmware, or misconfigured access
 
 Defense: Network segmentation, intrusion detection systems (IDS), and zero-trust architecture.
 <br>
+<h5>4. Top 10 OWASP </h5> Research on 2025
+<li> 4.1 A01: Broken Access Control – Unauthorized access due to improper permissions (e.g., accessing another user’s account).</li>
+<li>4.2 A02: Cryptographic Failures – Weak or missing encryption exposing sensitive data (e.g., plaintext passwords). </li> 
+<li>4.3 A03: Injection – Malicious input (e.g., SQL, NoSQL) executed as commands.</li> 
+<li>4.4 A04: Insecure Design – Flaws in application logic or architecture.</li> 
+<li>4.5 A05: Security Misconfiguration – Improperly configured systems (e.g., open cloud storage).</li> 
+<li>4.6 A06: Vulnerable and Outdated Components – Use of unpatched libraries or frameworks.</li> 
+<li>4.7 A07: Identification and Authentication Failures – Weak login mechanisms (e.g., no MFA). </li> 
+<li>4.8 A08: Software and Data Integrity Failures – Unverified code updates or deserialization flaws.</li> 
+<li>4.9 A09: Security Logging and Monitoring Failures – Lack of detection for breaches.</li> 
+<li>4.10 A10: Server-Side Request Forgery (SSRF) – Forcing a server to access internal resources.</li> 
