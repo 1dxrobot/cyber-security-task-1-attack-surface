@@ -18,16 +18,16 @@ Integrity: <li>Measures like content hashing and audit logs help detect fake acc
 Availability:<li>Platforms must remain online despite massive traffic. Content delivery networks (CDNs) and auto-scaling cloud infrastructure ensure continuous access.</li>
 <br>
 <h4> 2.Identify attacker types like script kiddies, insiders, hacktivists, and nation-state actors using credible security blogs.</h4> 
-<h2> 2.1 Script Kiddies</h2>
+<h4> 2.1 Script Kiddies</h4>
 <li>Attacker Who Use pre written Tools Or Script developed By Others without Understanding an Underlying the mechanism. </li>
 <br>
-<h2>2.2 Insiders</h2>
+<h4>2.2 Insiders</h4>
 <li>Insider threats come from individuals within an organization—employees, contractors, or partners—who misuse their authorized access to compromise data or systems. </li>
 <br> 
-<h2> 2.3 Hacktivists</h2>
+<h4> 2.3 Hacktivists</h4>
 <li> Hacktivists use cyber attacks to promote political, social, or ideological causes. They often target organizations they perceive as unethical.</li> 
 <br> 
-<h2>2.4 Nation-State Actors</h2>
+<h4>2.4 Nation-State Actors</h4>
 <li> Nation-state actors are highly skilled, well-funded groups backed by governments to conduct cyber espionage, sabotage critical infrastructure, or steal intellectual property.</li>
 <br>
 <h4> 3.Explore attack surfaces such as web apps, mobile apps, APIs, networks, and cloud infrastructure</h4>
