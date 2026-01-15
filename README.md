@@ -92,9 +92,9 @@ Defense: Network segmentation, intrusion detection systems (IDS), and zero-trust
 <li>7.1 User → Application (Frontend)
 Attack Points: Phishing, keyloggers, malicious browser extensions
   
-Threats: Credentials stolen before input; fake login overlays (e.g., in banking apps)
+Threats: Credentials stolen before input; fake login overlays (e.g., in banking apps)</li>
 <br> 
-7.2 Application (Client-Side) → Server
+<li>7.2 Application (Client-Side) → Server
 Attack Points: HTTP requests, APIs, forms
 
 Threats: Injection attacks (e.g., SQLi via login fields)
@@ -102,9 +102,9 @@ Threats: Injection attacks (e.g., SQLi via login fields)
 Cross-Site Scripting (XSS): Malicious scripts injected into input fields
 
 CSRF: Unauthorized actions triggered via authenticated sessions
-Insecure data transmission if TLS is missing or weak
+Insecure data transmission if TLS is missing or weak</li> 
 <br>
-7.3 Server (Backend)
+<li> 7.3 Server (Backend)
 Attack Points: Authentication logic, session management, API endpoints
 
 Threats:
@@ -112,8 +112,9 @@ Broken access control: Unauthorized access to resources
 
 Server-Side Request Forgery (SSRF): Forcing server to access internal systems
 
-Insecure deserialization: Remote code execution via manipulated data 
-7.4 Server → Database
+Insecure deserialization: Remote code execution via manipulated data </li>
+<br>
+<li>7.4 Server → Database
 Attack Points: Database queries, connection strings, stored procedures
 
 Threats:
