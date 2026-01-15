@@ -72,6 +72,9 @@ Defense: Network segmentation, intrusion detection systems (IDS), and zero-trust
 <li>4.10 A10: Server-Side Request Forgery (SSRF) – Forcing a server to access internal resources.</li> 
 <br>
 <h4> 5.Map attack surfaces in everyday apps like email, WhatsApp, and banking. </h4> 
-<h4> Email</h4>
-<li> Email is a primary attack surface due to its widespread use in personal and professional communication. Common threats include:<ol> Phishing & BEC </ol></li>
-
+<h4> 5.1 Email </h4>
+<li> Email is a primary attack surface due to its widespread use in personal and professional communication. Common threats include:<ol> Phishing & BEC </ol> <ol> Malware Delivery </ol> <ol> Spoofing </ol></li>
+<h4> 5.2 WhatsApp </h4>
+<li>WhatsApp’s popularity makes it a prime target, especially in regions like Brazil where it's used for business and banking:   <ol> Malware Propagation </ol> <ol> Auto-Messaging Worms </ol><ol> Social Engineering </ol></li>
+<h4> 5.3 Banking Apps </h4>
+<li> Banking applications face multi-layered threats across mobile and web platforms:    <ol> Overlay Attacks </ol> <ol> Man-in-the-Disk </ol> <ol> Device Tampering </ol></li> 
