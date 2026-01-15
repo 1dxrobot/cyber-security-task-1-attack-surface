@@ -78,3 +78,5 @@ Defense: Network segmentation, intrusion detection systems (IDS), and zero-trust
 <li>WhatsApp’s popularity makes it a prime target, especially in regions like Brazil where it's used for business and banking:   <ol> Malware Propagation </ol> <ol> Auto-Messaging Worms </ol><ol> Social Engineering </ol></li>
 <h4> 5.3 Banking Apps </h4>
 <li> Banking applications face multi-layered threats across mobile and web platforms:    <ol> Overlay Attacks </ol> <ol> Man-in-the-Disk </ol> <ol> Device Tampering </ol></li> 
+<h4> Document data flow: user → application → server → database. </h4>
+https://en.wikipedia.org/wiki/File:Data-flow-diagram-example.svg
