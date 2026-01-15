@@ -72,7 +72,6 @@ Defense: Network segmentation, intrusion detection systems (IDS), and zero-trust
 <li>4.10 A10: Server-Side Request Forgery (SSRF) – Forcing a server to access internal resources.</li> 
 <br>
 <h4> 5.Map attack surfaces in everyday apps like email, WhatsApp, and banking. </h4> 
-
-
-
+<h4> Email</h4>
+<li> Email is a primary attack surface due to its widespread use in personal and professional communication. Common threats include:<ol> Phishing & BEC </ol></li>
 
